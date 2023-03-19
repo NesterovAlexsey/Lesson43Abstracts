@@ -19,4 +19,11 @@ public abstract class House {
   public void setAddress(String address) {
     this.address = address;
   }
+
+  @Override
+  public String toString() {
+    String result = "The house address is '" + address + "';";
+    return result;
+  }
+
 }
