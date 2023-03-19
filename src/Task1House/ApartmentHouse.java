@@ -5,7 +5,7 @@ public class ApartmentHouse extends House {
 
 //    При создании многоквартирного дома дополнительно принимайте в конструкторе целое число -
 //    количество подъездов.
-  private int numberOfEntrance;
+  final private int numberOfEntrance;
 
   public ApartmentHouse(String address, int numberOfEntrance) {
     super(address);
@@ -14,7 +14,7 @@ public class ApartmentHouse extends House {
 
   @Override
   public String toString() {
-    return "Full house address is '" +address + " ," + numberOfEntrance;
+    return "Full house address is '" +address + ", " + numberOfEntrance + "';";
   }
 
 }

@@ -15,5 +15,23 @@ package Task1House;//Задача 1
 //
 //    Выведите информацию о домах в списке с использованием цикла for-each.
 
-public class MainHaus {
+import java.util.ArrayList;
+import java.util.List;
+
+public class MainHouse {
+
+  public static void main(String[] args) {
+    House testBuild1 = new ApartmentHouse("First test address", 4);
+    House testBuild2 = new PrivateHouse("Second test address");
+    House testBuild3 = new PrivateHouse("Third test address");
+
+    List<House> someHouses = new ArrayList<>();
+    someHouses.add(testBuild1);
+    someHouses.add(testBuild2);
+    someHouses.add(testBuild3);
+
+    for (House num : someHouses) {
+      System.out.println(num);
+    }
+  }
 }
