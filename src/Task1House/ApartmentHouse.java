@@ -12,5 +12,9 @@ public class ApartmentHouse extends House {
     this.numberOfEntrance = numberOfEntrance;
   }
 
+  @Override
+  public String toString() {
+    return "Full house address is '" +address + " ," + numberOfEntrance;
+  }
 
 }
