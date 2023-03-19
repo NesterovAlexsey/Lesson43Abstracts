@@ -1,3 +1,5 @@
+package Task1House;
+
 //    Создайте абстрактный класс "Дом".
 public abstract class House {
 
