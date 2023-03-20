@@ -26,4 +26,5 @@ public abstract class House {
     return result;
   }
 
+  public abstract void destroyHouse(String address);
 }

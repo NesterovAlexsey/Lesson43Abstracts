@@ -7,5 +7,10 @@ public class PrivateHouse extends House {
     super(address);
   }
 
+  @Override
+  public void destroyHouse(String address) {
+    System.out.println("Вы снесли частный дом");
+    setAddress(null);
+  };
   //    В методе toString() выводите в удобном виде всю известную информацию о доме.
 }
