@@ -3,7 +3,7 @@ package Task1House;
 //    Создайте абстрактный класс "Дом".
 public abstract class House {
 
-  String address;
+  private String address;
 
   //В качестве аргумента конструктора принимайте адрес.
   public House(String address) {

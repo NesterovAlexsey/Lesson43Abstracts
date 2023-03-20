@@ -14,7 +14,7 @@ public class ApartmentHouse extends House {
 
   @Override
   public String toString() {
-    return "Full house address is '" + address + ", " + numberOfEntrance + "';";
+    return "Full house address is '" + getAddress() + ", " + numberOfEntrance + "';";
   }
 
   //    Добавьте классу "Дом" виртуальный метод "снести".
