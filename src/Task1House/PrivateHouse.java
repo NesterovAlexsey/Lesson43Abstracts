@@ -7,10 +7,11 @@ public class PrivateHouse extends House {
     super(address);
   }
 
+  //    Добавьте классу "Дом" виртуальный метод "снести".
+  //    Перезапишите этот метод в "Частном доме" и "Многоквартирном доме":
+  //    для частного дома выводите на экран: "Вы снесли частный дом";
   @Override
-  public void destroyHouse(String address) {
+  public void destroyHouse() {
     System.out.println("Вы снесли частный дом");
-    setAddress(null);
-  };
-  //    В методе toString() выводите в удобном виде всю известную информацию о доме.
+  }
 }

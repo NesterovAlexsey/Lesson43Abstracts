@@ -26,5 +26,6 @@ public abstract class House {
     return result;
   }
 
-  public abstract void destroyHouse(String address);
+  //    Добавьте классу "Дом" виртуальный метод "снести".
+  public abstract void destroyHouse();
 }

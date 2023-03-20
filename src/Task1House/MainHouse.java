@@ -18,7 +18,6 @@ package Task1House;//Задача 1
 //
 // Задача 2
 //    Добавьте классу "Дом" виртуальный метод "снести".
-//
 //    Перезапишите этот метод в "Частном доме" и "Многоквартирном доме":
 //
 //    для частного дома выводите на экран: "Вы снесли частный дом";
@@ -34,6 +33,10 @@ public class MainHouse {
     House testBuild1 = new ApartmentHouse("First test address", 4);
     House testBuild2 = new PrivateHouse("Second test address");
     House testBuild3 = new PrivateHouse("Third test address");
+
+    testBuild1.destroyHouse();
+    testBuild2.destroyHouse();
+    testBuild3.destroyHouse();
 
     List<House> someHouses = new ArrayList<>();
     someHouses.add(testBuild1);
